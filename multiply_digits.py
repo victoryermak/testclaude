@@ -10,7 +10,8 @@ def main():
     a = get_digit("Enter first digit: ")
     b = get_digit("Enter second digit: ")
     c = get_digit("Enter third digit: ")
-    print(f"Result: {a} * {b} * {c} = {a * b * c}")
+    d = get_digit("Enter fourth digit: ")
+    print(f"Result: {a} * {b} * {c} * {d} = {a * b * c * d}")
 
 
 if __name__ == "__main__":
